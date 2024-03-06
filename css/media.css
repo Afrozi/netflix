@@ -1,0 +1,101 @@
+@media screen and (max-width: 1200px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_div{
+        padding: 0rem 0rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .netflix{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    .netflix_main{
+        margin-top: 1rem;
+    }
+    .header{
+        font-size: 20px;
+    }
+    .home_div{
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+        padding: 0px 0px 0px 0px;
+        margin-top: 1rem;
+    }
+   #idx{
+      font-size: 0.8rem;
+   }
+   .flex{
+    width: 20%;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .code{
+    padding: 0rem 0rem 0rem 1rem;
+   }
+   .image{
+    width: 80%;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+   }
+   .image1{
+       width: 100%;
+  }
+  .image2{
+    width: 80%;
+  }
+  .Tall{
+    font-size: 1.2rem;
+}
+.email-signup{
+   display: flex;
+   flex-direction: column;
+}
+.email-signup button{
+    margin: 5px auto;
+}
+.email-signup input{
+    width: 50%;
+    margin: 10px auto;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 2% 10px;
+}
+.footer .language-btn{
+    width: 15%;
+}
+}
+@media screen and (max-width: 900px) {
+    .email-signup input{
+        width: 100%;
+        margin: 10px auto;
+        
+    }
+    .footer .language-btn{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 650px) {
+      .footer .row {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+      }
+      .footer .language-btn{
+        width: 50%;
+        margin: 2px auto;
+      }
+      label::after{
+        content: '';
+      }
+      .copyright-txt{
+        text-align: center;
+      }
+}
